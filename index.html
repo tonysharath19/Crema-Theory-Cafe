@@ -381,7 +381,7 @@
     /* Supplied hero art: desktop and mobile use their own composition. */
     .hero{background-image:linear-gradient(90deg,rgba(255,250,244,.97) 0%,rgba(255,250,244,.82) 38%,rgba(255,250,244,.08) 66%),url('assests/desktop.png');background-position:center;background-size:cover}.hero-image-space{display:none}
     .hero-mobile-video{display:none}
-    .hero-brand{display:inline-block;font:400 .66em/1 var(--logo);letter-spacing:.015em;color:var(--orange2);margin-bottom:.12em}.hero-actions{margin-top:clamp(58px,10vh,120px)}
+    .hero-brand{display:inline-block;font:400 .66em/1 var(--logo);letter-spacing:.015em;color:var(--orange2);margin-bottom:.12em}.hero-actions{margin-top:22px}
     .desktop-nav .brand{font-size:34px}.desktop-nav .brand-mark{width:37px;height:37px}.hero h1{font-size:clamp(80px,8vw,138px)}
     .hero h1,.hero h1 em{-webkit-text-stroke:0;text-shadow:none}.hero h1{color:#211712}.hero h1 em{color:#c9481b}.hero-actions .button.outline{background:var(--ink);border-color:var(--ink);color:#fff}.hero-actions .button.outline:before{background:var(--orange)}
     /* Compact desktop navigation: one complete subway-bun pill. */
@@ -415,7 +415,8 @@
       /* The close control remains available while a long article is scrolled. */
       #articlePopup .popup-close{position:sticky;top:12px;display:grid;margin:12px 12px -48px auto;z-index:5;box-shadow:var(--shadow-sm)}
       .hero{height:100svh!important;min-height:0!important;max-height:100svh!important;padding-top:104px;padding-bottom:24px;background:none}.hero-mobile-video{display:block;position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(255,250,244,.38),rgba(255,250,244,.08) 70%);z-index:0;pointer-events:none}.hero-grid{min-height:0}.hero-copy{text-align:left}.hero-image-space{height:0!important}.hero-note{margin-top:18px}
-      .mobile-head .brand{font-size:27px}.mobile-head .brand-mark{width:32px;height:32px}.hero h1{font-size:clamp(58px,16.5vw,90px);max-width:8.5ch;color:#211712}.hero h1 em{font-weight:900;-webkit-text-stroke:0;text-shadow:none;color:#c9481b}.hero-brand{font-size:.58em}.hero-actions{margin-top:clamp(38px,8vh,60px)}
+      .mobile-head .brand{font-size:27px}.mobile-head .brand-mark{width:32px;height:32px}.hero h1{font-size:clamp(42px,12.5vw,52px);max-width:none;white-space:nowrap;color:#211712}.hero h1 em{font-weight:900;-webkit-text-stroke:0;text-shadow:none;color:#c9481b}.hero-brand{font-size:.58em}.hero-actions{margin-top:clamp(44px,9vh,80px)}.hero-actions .button.outline{display:none}
+      .hero-copy{transform:translateY(-30px)}.hero h1{position:static;transform:none}.hero-actions{position:static;margin-top:60px}
       #about{overflow:visible}#about .about-reading .about-word{text-shadow:0 1px 8px rgba(33,23,18,.42)}
       #favourites .feature-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-flow:row;overflow:visible;margin:0;padding:0;gap:10px}#favourites .product-card:nth-child(3){grid-column:1/-1;width:calc(50% - 5px);justify-self:center}
       #visit{height:auto;min-height:0;padding:48px 0}#visit .visit-grid{grid-template-columns:1fr;gap:14px}#visit .visit-panel{padding:24px;min-height:340px;border-radius:20px}#visit .visit-panel h2{font-size:44px}#visit .visit-panel p{font-size:17px;margin:12px 0 18px}#visit .visit-detail{font-size:16px;gap:9px}.map-panel,#visit .map-panel iframe{min-height:300px;border-radius:20px}.footer{height:auto;min-height:0;margin:24px 10px 10px;padding:30px 0 18px;border-radius:24px}.footer-grid{grid-template-columns:1fr 1fr;gap:16px}.footer-grid>div:first-child{grid-column:1/-1}.footer-intro .footer-cta{display:inline-flex}.footer-intro .socials{display:flex}.footer .brand{font-size:36px}.footer-heading{font-size:14px;margin-bottom:8px}.footer-links{gap:4px}.footer-links a,.footer-links li{font-size:13px}.footer-bottom{display:flex}
@@ -468,7 +469,7 @@
       <div class="wrap hero-grid">
         <div class="hero-copy">
           <h1 class="reveal" style="--delay:100ms">A Better Cup.<br><em>A Brighter</em> Day.</h1>
-          <div class="hero-actions reveal" style="--delay:360ms"><a class="button" href="#menu">Explore the menu <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a class="button outline" href="#about">Get to know us</a></div>
+          <div class="hero-actions reveal" style="--delay:360ms"><a class="button" href="#favourites">Explore the menu <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a class="button outline" href="#about">Get to know us</a></div>
         </div>
         <!-- Intentionally blank: add your own hero photograph/background here when ready. -->
         <div class="hero-image-space" aria-hidden="true"></div>
